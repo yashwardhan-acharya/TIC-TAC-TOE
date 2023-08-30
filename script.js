@@ -265,9 +265,9 @@ function f() {
     document.getElementById("ans").innerHTML = "Match Tie";
   } else {
     if (i % 2 == 0) {
-      document.getElementById("ans").innerHTML = a + "'s Turn";
+      document.getElementById("ans").innerHTML = a + " - Turn";
     } else {
-      document.getElementById("ans").innerHTML = d1 + "'s Turn";
+      document.getElementById("ans").innerHTML = d1 + " - Turn";
     }
   }
 }
