@@ -8,7 +8,7 @@ function sub_3() {
 function my() {
   a = localStorage.getItem("d");
   if (a==0) {
-    document.getElementById("name").innerHTML = " ";
+    document.getElementById("name").innerHTML = "Player 1 -X ";
     
   } else {
     
@@ -18,7 +18,7 @@ function my() {
 
   d1 = localStorage.getItem("b");
   if (d1==0) {
-    document.getElementById("name-2").innerHTML =" ";
+    document.getElementById("name-2").innerHTML =" Player 2- O ";
     
   } else {
     
